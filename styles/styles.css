@@ -1,0 +1,94 @@
+* {
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.home-banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.black-bar {
+    background-color: black;
+    width: 10%;
+}
+
+.home-banner-image {
+    background-image:
+        linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0) 70%,
+            rgba(0, 0, 0, 1) 
+        ),
+        url(../assets/BMP_8484.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(90%);
+    display: flex;
+    flex-direction: column;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin: 5px 0px 230px 0px;
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 90px;
+    transition: text-shadow .2s;
+}
+
+.nav-link:hover {
+    color: white;
+    text-shadow: white .2px .2px;
+}
+
+.nav-link:active, .nav-link:focus {
+    color: white;
+}
+
+.home-card-title {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.home-banner-text {
+    color: white;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.home-cards {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+h5 {
+    padding-top: 50px;
+}
+
+.card-text {
+    padding-top: 20px;
+}
+
+.home-cards-upcoming {
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
