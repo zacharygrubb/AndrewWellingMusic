@@ -78,7 +78,7 @@ h5 {
     padding-top: 50px;
 }
 
-.card-text {
+.card-text-home {
     padding-top: 20px;
 }
 
@@ -91,4 +91,151 @@ h5 {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icon img {
+    height: 50px;
+    padding-right: 40px;
+    filter: invert(.7);
+    transition: filter .2s;
+}
+
+.social-icon img:hover {
+    filter: invert(1);
+}
+
+
+.navbar-works {
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-works .nav-link {
+    color: black;
+}
+
+.navbar-works .nav-link:hover {
+    text-shadow: black .2px .2px;
+}
+
+.works-title {
+    border-bottom: 2px black solid;
+    margin: 30px 0px 80px 40px;
+    font-size: 48px;
+}
+
+.upcoming-title {
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.works-cards {
+    margin-left: 40px;
+    border: none;
+    height: 100px
+}
+
+.card-text {
+    height: 20px;
+    overflow: hidden;
+}
+
+.works-cards div {
+    overflow: hidden;
+}
+
+.works-card-image {
+    width: 100px;
+}
+
+.works-card-titles {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.works-card-body {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.work-cards-upcoming {
+    margin-bottom: 70px;
+}
+
+.card-title-works {
+    padding-top: 0;
+    padding-right: 50px;
+}   
+
+h6 {
+    font-size: 20px;
+}
+
+.bio-body {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-text-area {
+    word-wrap: normal;
+    width: 50%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-text {
+    padding: 80px 10px 0px 10px;
+}
+
+.bio-img {
+    width: 400px;
+    margin-bottom: 100px;
+    border: grey 1px solid;
+}
+
+.cv {
+    padding: 5px 20px;
+    margin: auto;
+    transition: box-shadow .2s;
+}
+
+.cv:hover {
+    box-shadow: black 0px 1px 1px 0px;
+}
+
+.contact-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-title {
+    font-weight: 500;
+}
+
+.contact-subtitle {
+    padding-bottom: 50px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+form {
+    width: 50%;
+}
+
+.btn-primary {
+    margin: 30px 0px 80px 0px;
 }
