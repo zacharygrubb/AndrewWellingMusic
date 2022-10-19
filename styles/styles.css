@@ -95,15 +95,19 @@ h5 {
 
 .footer-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .social-icon img {
-    height: 50px;
+    height: 30px;
     padding-right: 40px;
     filter: invert(.7);
     transition: filter .2s;
+}
+
+#soundcloud img {
+    height: 40px;
 }
 
 .social-icon img:hover {
@@ -126,13 +130,26 @@ h5 {
 }
 
 .works-title {
-    border-bottom: 2px black solid;
-    margin: 30px 0px 80px 40px;
     font-size: 48px;
+    transform: translateY(16px);
+}
+
+.works-top {
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px 160px 0px 160px;
+    overflow: hidden;
+}
+
+.works-icon img {
+    height: 40px;
+    padding-left: 30px;
 }
 
 .upcoming-title {
-    margin: 0px 0px 20px 0px;
+    margin: 70px 0px 20px 0px;
     text-align: center;
     font-size: 24px;
     font-weight: 500;
