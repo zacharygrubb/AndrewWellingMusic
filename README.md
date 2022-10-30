@@ -1,3 +1,3 @@
 # AndrewWellingMusic
 
-https://zacharygrubb.github.io/AndrewWellingMusic/
+www.andrewwelling.com
