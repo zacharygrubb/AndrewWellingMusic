@@ -139,13 +139,17 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 30px 160px 0px 160px;
+    margin: 30px 0px 0px 160px;
     overflow: hidden;
 }
 
+.works-icons {
+    padding-right: 70px;
+}
+
 .works-icon img {
-    height: 40px;
-    padding-left: 30px;
+    height: 35px;
+    padding-right: 40px;
 }
 
 .upcoming-title {
@@ -169,6 +173,11 @@ h5 {
 
 .works-cards div {
     overflow: hidden;
+}
+
+.works-link {
+    text-decoration: none;
+    color: black;
 }
 
 .works-card-image {
@@ -197,6 +206,12 @@ h5 {
 
 h6 {
     font-size: 20px;
+}
+
+.bio-title {
+    margin: 50px 0px 70px 150px;
+    border-bottom: 2px black solid;
+    font-size: 48px;
 }
 
 .bio-body {
@@ -237,6 +252,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 110px 0px 50px 0px;
 }
 
 .contact-title {
@@ -255,4 +271,13 @@ form {
 
 .btn-primary {
     margin: 30px 0px 80px 0px;
+}
+
+@media only screen and (min-width: 1700px) {
+    .home-banner-image {
+        height: 900px;
+    } 
+    .home-banner-text {
+        padding-top: 100px;
+    }
 }
