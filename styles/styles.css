@@ -152,7 +152,7 @@ h5 {
     padding-right: 40px;
 }
 
-.upcoming-title {
+.upcoming-title, .works-work-title {
     margin: 70px 0px 20px 0px;
     text-align: center;
     font-size: 24px;
@@ -180,6 +180,11 @@ h5 {
     color: black;
 }
 
+a.disabled {
+  color: gray;
+  pointer-events: none;
+}
+
 .works-card-image {
     width: 100px;
 }
@@ -202,7 +207,23 @@ h5 {
 .card-title-works {
     padding-top: 0;
     padding-right: 50px;
-}   
+}
+
+.works-nosegay {
+    padding-bottom: 50px;
+}
+
+.works-work-title {
+    padding-bottom: 30px;
+}
+
+#kaamos-body {
+    padding-bottom: 53%;
+}
+
+.works-embed {
+    padding-top: 50px;
+}
 
 h6 {
     font-size: 20px;
