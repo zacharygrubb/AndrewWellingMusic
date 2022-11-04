@@ -266,11 +266,14 @@ h6 {
 
 .cv {
     padding: 5px 20px;
+}
+
+.cv-link {
     margin: auto;
     transition: box-shadow .2s;
 }
 
-.cv:hover {
+.cv-link:hover {
     box-shadow: black 0px 1px 1px 0px;
 }
 
